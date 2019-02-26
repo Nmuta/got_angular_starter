@@ -1,4 +1,13 @@
 <p>
   winterfell works!
   My data:  {{my_data}}
+
+  Arya's list: {{arya_list}}
+  
+ 
 </p>
+
+<input (input)="updateInput($event)" type="text">
+the item to add to list:
+
+<button (click)="postMessage()">click to add to Arya's list</button>
